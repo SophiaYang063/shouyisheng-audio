@@ -1,2 +1,9 @@
-# shouyisheng-audio
-ShouYiSheng: A platform for cultural relics protectors' audio recording and heritage interpretation. | 守艺声：文保员录音与讲解传承平台。
+# 守艺声 · 文保声音档案交互原型
+
+这是「守艺声」移动端交互原型的静态网页版本，入口为 `index.html`。页面图片资源放在同级的 `propagation-km-assets/` 目录中。
+
+## 预览
+
+直接通过静态网页服务器打开 `index.html`，以确保相对路径图片资源能正常加载。原型包含欢迎、登录、蓝牙连接、录音、AI 整理、档案和个人设置等页面与交互。
+
+页面沿用原型已有的 React/Babel CDN 引用；本次没有新增第三方依赖。
